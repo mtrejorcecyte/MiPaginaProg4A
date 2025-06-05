@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #007BFF;
+    padding: 1em;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    display: none;
+    padding: 2em;
+}
+
+section.active {
+    display: block;
+}
